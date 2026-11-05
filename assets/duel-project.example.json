@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "note": "Planning contract for an authored renderer, not a ready-to-render project. Replace illustrative timing and fill reviewed media before rendering.",
+  "title": "最後一張牌的逆轉",
+  "format": {"width": 1080, "height": 1920, "fps": 30, "logical_width": 540, "logical_height": 960},
+  "duration_s": 40,
+  "credit": "虛構卡牌戲仿｜原音節選",
+  "characters": {
+    "player": {"name": null, "view": "three-quarter-back-right", "sheet": null, "standing_height": null, "poses": []},
+    "opponent": {"name": null, "view": "three-quarter-front-left", "sheet": null, "standing_height": null, "poses": []}
+  },
+  "cards": [
+    {"id": "opening_monster", "name": null, "kind": "monster", "owner": "player", "art_path": null, "source_url": null},
+    {"id": "opponent_move", "name": null, "kind": "spell", "owner": "opponent", "art_path": null, "prompt_path": null},
+    {"id": "hand_a", "name": null, "kind": "custom_spell", "owner": "player", "art_path": null, "prompt_path": null},
+    {"id": "hand_b", "name": null, "kind": "custom_spell", "owner": "player", "art_path": null, "prompt_path": null},
+    {"id": "reversal", "name": null, "kind": "field_spell", "owner": "player", "art_path": null, "source_url": null}
+  ],
+  "card_back": {"path": null, "source_url": null, "edition": null},
+  "sources": [],
+  "voice_clips": [],
+  "captions": [],
+  "initial_hp": {"player": 4000, "opponent": 4000},
+  "events": [
+    {"phase": "intro", "start": 0, "end": 2},
+    {"phase": "field", "start": 2, "end": 5, "actor": "player", "card": "opening_monster"},
+    {"phase": "opponent_play", "start": 5, "end": 10, "actor": "opponent", "target": "player", "card": "opponent_move", "impact_at": 8.5, "hp_after": 1},
+    {"phase": "crisis", "start": 10, "end": 13, "actor": "player"},
+    {"phase": "hand", "start": 13, "end": 18, "actor": "player", "cards": ["hand_a", "hand_b"]},
+    {"phase": "draw", "start": 18, "end": 22, "actor": "player", "conceal_front": true},
+    {"phase": "reveal", "start": 22, "end": 25, "actor": "player", "card": "reversal"},
+    {"phase": "activate", "start": 25, "end": 29, "actor": "player", "target": "opponent", "card": "reversal", "impact_at": 27},
+    {"phase": "effect", "start": 29, "end": 36, "actor": "opponent", "effect": null, "impact_at": 34, "hp_after": 0},
+    {"phase": "victory", "start": 36, "end": 40, "winner": "player"}
+  ],
+  "audio_stems": {"dialogue": "audio/dialogue.wav", "effects": "audio/effects.wav", "music": "audio/music.wav"},
+  "music": {"source": null, "source_url": null, "title": null, "reveal_output_cue": 22, "source_cue": null},
+  "output": "output/card_duel_v1.mp4"
+}

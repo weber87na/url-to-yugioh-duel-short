@@ -1,0 +1,4 @@
+interface:
+  display_name: "遊戲王式卡牌對戰短片"
+  short_description: "把影片原音改編成像素人物與寫實卡牌的遊戲王式神抽逆轉短片"
+  default_prompt: "使用 $url-to-yugioh-duel-short，把提供的影片或劇情製作成有原音、寫實卡牌與神抽逆轉的遊戲王式對戰短片。"
