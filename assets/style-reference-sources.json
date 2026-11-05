@@ -1,0 +1,64 @@
+{
+  "purpose": "Visual references for the expanded duel layout and physical-card styling; character identities and story are examples only.",
+  "case": "柯文哲對戰丁守中 v5",
+  "video_sha256": "56132d6d49df5827dec995831af33014785f6b69551f2d72528eeee20244f8ce",
+  "video_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_s": 58
+  },
+  "references": [
+    {
+      "file": "style-reference.jpg",
+      "source": "v5 encoded MP4, frame at 15.000 seconds",
+      "transform": "FFmpeg frame extraction to JPEG q=2; no crop, overlays or stretching",
+      "sha256": "b888457bff205350e6169fd73f9e55350bcecfaa8fd768cf4c9072ef56e6f953"
+    },
+    {
+      "file": "scene-sequence-reference.jpg",
+      "source": "v5 renderer preview contact sheet",
+      "times_s": [
+        2,
+        8,
+        15,
+        21,
+        25.3,
+        35.8,
+        43,
+        48.6,
+        55
+      ],
+      "transform": "Existing contact sheet copied unchanged",
+      "sha256": "c9146363ed4bf2bc79e7abc9ca9b86d24fdf6a3243ec8b8131a6d2c7cbdd37e6"
+    },
+    {
+      "file": "card-style-reference.jpg",
+      "source": "v3 accepted card gallery, reused without card-content changes in v5",
+      "transform": "Existing full-card gallery copied unchanged",
+      "sha256": "14ee61e890e97a5334e0f3416fb1054c85c4924340c0f607b38c0d22546d4a95"
+    },
+    {
+      "file": "style-reference-han-wang.jpg",
+      "source": "Previous skill style-reference.jpg, Han vs Wang historical case",
+      "transform": "Previous reference retained byte for byte",
+      "sha256": "e45e9cea688b79860147dffa045d9779192984dc491287bae9302b1e7091f011"
+    }
+  ],
+  "card_template_sources": "../references/card-style-sources.json",
+  "card_attribution": "../references/card-style.md#來源與署名",
+  "source_video_urls": [
+    "https://www.youtube.com/watch?v=8vKK6souG2w",
+    "https://www.youtube.com/watch?v=JjsXdhGWuJs"
+  ],
+  "artwork_note": "Custom portraits and fantasy illustrations authored with native ImageGen; template components and original card-back imagery are third-party material. References show unofficial parody cards.",
+  "card_back_source_url": "https://static.wikia.nocookie.net/yugioh/images/e/e5/Back-EN.png",
+  "not_bundled": [
+    "source videos",
+    "music and dialogue audio",
+    "full output video",
+    "original sprite atlases",
+    "original template raster layers",
+    "font binaries"
+  ]
+}

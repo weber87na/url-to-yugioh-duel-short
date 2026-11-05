@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "purpose": "Source provenance for the demonstrated high-resolution custom card style. This is not an installed asset catalog or a renderer configuration.",
+  "layout_reference": "https://www.yugioh-card.com/japan/howto/?mode=beginner",
+  "source_repository": "https://github.com/alixsep/yugilife",
+  "source_package": "packages/yugilife-templates",
+  "template": {
+    "id": "card/series-10",
+    "manifest_version": "2026.09.23",
+    "composition_dimensions": [
+      813,
+      1185
+    ]
+  },
+  "source_assets_packaged": false,
+  "packaging_note": "Original raster template layers, template JSON files and font binaries are not bundled. source/... identifiers are logical source names, not paths present in this skill. Only the source LICENSE and THIRD_PARTY_NOTICES are copied verbatim to the notice_copy locations; a composed visual sample is stored separately.",
+  "visual_sample": "../assets/card-style-reference.jpg",
+  "version_note": "Source URLs retain the original main-branch URLs. SHA256 identifies the bytes used for this example; a changed download must be reviewed as a different version.",
+  "rights_note": "The included source LICENSE is GNU AGPL v3. The source THIRD_PARTY_NOTICES states that inclusion of font/image assets does not grant rights beyond their applicable source licenses or permissions. No uniform license for every image/font is inferred here.",
+  "notices": [
+    {
+      "path": "licenses/yugilife-templates-LICENSE.txt",
+      "source_file": "source/LICENSE"
+    },
+    {
+      "path": "licenses/yugilife-templates-THIRD_PARTY_NOTICES.txt",
+      "source_file": "source/THIRD_PARTY_NOTICES.md"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "file": "source/LICENSE",
+      "source_asset_packaged": false,
+      "notice_copy": "licenses/yugilife-templates-LICENSE.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/THIRD_PARTY_NOTICES.md",
+      "sha256": "19b95d85717eae35e1733f0e2961683caf92c36c94ecc96a8c8bb4606c7176c3",
+      "file": "source/THIRD_PARTY_NOTICES.md",
+      "source_asset_packaged": false,
+      "notice_copy": "licenses/yugilife-templates-THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/shared/frame-texture.png",
+      "sha256": "e4a93e61f4ab7f1d4aaba4c36f18a0cccf23aded33a9fdc23a04a07f65d1b362",
+      "file": "source/frame-texture.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/shared/border.png",
+      "sha256": "fab384c4c832c50c28aacf40ded2ccbe1fccd94b60192479bd4f3dbb9495bdb6",
+      "file": "source/border.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/template.json",
+      "sha256": "a64d94033b50d06c5326f1475135f827ea8a2a3743a2ab5da576b344485c3082",
+      "file": "source/template.json",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/color-presets.json",
+      "sha256": "89382c6af5c665a8b9e412f90a60662a718be07102a273eccbd001437d655eb1",
+      "file": "source/color-presets.json",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/manifest.json",
+      "sha256": "b3b5af1046e08194fc118cadc360198ac4b7dc7c21f01ace6812a7d0a4982cf5",
+      "file": "source/manifest.json",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/artwork-box-shadow.png",
+      "sha256": "033421fc772e7d89ad728f6dc7c457360f93d9b302ea2b8b5dd653c56a732ec0",
+      "file": "source/artwork-box-shadow.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/artwork-box.png",
+      "sha256": "fc514a1bb8c10e9e48315b178d6072c642d30fb785144596a8eb7c5e9eab17c0",
+      "file": "source/artwork-box.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/attribute-dark.png",
+      "sha256": "f588cca6f50c6371b897c2c8413563a857f913888811cad5917459372efb0797",
+      "file": "source/attribute-dark.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/attribute-spell.png",
+      "sha256": "a7580856dd56662c93740833ead3461516ae3b59e6e7d0923e790f42ca71e013",
+      "file": "source/attribute-spell.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/effects-border-shadow.png",
+      "sha256": "df2bdd5ffc5a6f824c84ffe5e1716c730c3d4ee6d12e291aadc80685be5dfea4",
+      "file": "source/effects-border-shadow.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/effects-border.png",
+      "sha256": "c1ee546e978d60afe34ea6ae67d30d02251912187b806bb9548dab8205aa26ea",
+      "file": "source/effects-border.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/star-level.png",
+      "sha256": "f60c604fb3a466388006f1c23b9089fde7d5f980a58afec9efea97b8928163af",
+      "file": "source/star-level.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/sticker-00.png",
+      "sha256": "79c6b174e8e90978d455b498efa06354f43d402ae2b4156ad0288d7981099065",
+      "file": "source/sticker-00.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/templates/card/series-10/assets/sticker-01.png",
+      "sha256": "009056d85c0fedbda6d490db0bb2446a2ba72487f2444d9e15dba3ad807cf0b9",
+      "file": "source/sticker-01.png",
+      "source_asset_packaged": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alixsep/yugilife/main/packages/yugilife-templates/shared/fonts/DFTF%20Lei%20Sho%20W5.ttf",
+      "sha256": "b8496504f181b7991f9c5e33571ad1e4fa97a408320736144b9223202ba14ef9",
+      "file": "source/DFTF_LeiSho_W5.ttf",
+      "source_asset_packaged": false,
+      "example_use": "Attribute glyph only in the demonstrated project; the source font subset lacks some Traditional Chinese characters. Use a configured complete font for card titles and effect descriptions."
+    }
+  ],
+  "layout_notes": {
+    "effect_monster": "Orange-brown textured frame; attribute, Level, race/effect, description and ATK/DEF drawn from each card specification, with no case-specific defaults.",
+    "normal_spell": "Teal textured frame; SPELL badge and spell label; no monster Level, race or ATK/DEF and no special Spell-type icon.",
+    "other_card_types": "Require separately verified layout and source assets; do not silently route unsupported types to Normal Spell.",
+    "description_field": "description",
+    "custom_identification": "Use custom card identifiers and an unofficial parody footer; do not invent official copyright text."
+  }
+}

@@ -1,8 +1,10 @@
 # 已驗收案例：韓國瑜 vs 王世堅
 
-這是風格與工程參考，不是新案預設人物。原工程與成片未隨本儲存庫提供；使用技能內規格與圖例即可建立新案，不以原工程作依賴。
+這是風格與工程參考，不是新案預設人物。原工程若不在目前機器，使用技能內規格與圖例繼續，不以這些本機路徑作依賴。
 
-- 原案例工程名稱：`han_vs_wang_duel_v2_20261104`
+本頁保留早期案例的敘事及音訊經驗；[舊版樣本](../assets/style-reference-han-wang.jpg) 的底部大敘事區已由目前的放大場景取代。新案版面與實卡樣式以 [visual-system.md](visual-system.md)、[card-style.md](card-style.md) 及 [v5 案例](current-case.md) 為準。
+
+- 工程：`D:/Yu-Gi-Oh/projects/han_vs_wang_duel_v2_20261104`
 - 最終：`output/han_vs_wang_duel_v3_classic_bgm.mp4`
 - 47 秒、1080×1920、30 fps、1410 幀；四段真實語音、五句字幕。
 - 成片修改後保留 V1／V2，V3 視訊 bitstream 與 V2 完全一致。
